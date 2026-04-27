@@ -1,4 +1,4 @@
-# @slyce/ridr
+# @slyce.dev/ridr
 ### A super lightweight, minimal, component-based front-end framework
 
 ---
