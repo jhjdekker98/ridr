@@ -1,6 +1,6 @@
 {
   "name": "@slyce.dev/ridr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super lightweight, minimal, component-based front-end framework",
   "type": "module",
   "main": "./dist/ridr.umd.js",
@@ -15,9 +15,17 @@
     "test": "vitest run --environment jsdom",
     "test:watch": "vitest --environment jsdom"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhjdekker98/ridr.git"
+  },
   "keywords": [],
   "author": "slyce.dev",
-  "license": "ISC",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jhjdekker98/ridr/issues"
+  },
+  "homepage": "https://github.com/jhjdekker98/ridr#readme",
   "devDependencies": {
     "@vitest/browser": "^4.1.5",
     "jsdom": "^29.1.0",
