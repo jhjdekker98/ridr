@@ -45,4 +45,13 @@ describe('Component System', () => {
 
         expect(container.innerHTML).toBe('');
     });
+
+    it('should be remountable', async () => {
+        const counter = new Counter(container);
+        await counter.mount();
+        await counter.unmount();
+        await counter.mount();
+
+        expect(container.querySelector('.counter')).not.toBeNull();
+    })
 });

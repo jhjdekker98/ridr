@@ -1,6 +1,6 @@
 {
   "name": "@slyce.dev/ridr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A super lightweight, minimal, component-based front-end framework",
   "type": "module",
   "main": "./dist/ridr.umd.js",

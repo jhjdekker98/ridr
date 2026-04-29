@@ -52,6 +52,7 @@ export abstract class Component {
         if (this.element && this.element.parentElement) {
             this.element.parentElement.removeChild(this.element);
             this.element = null;
+            this.templateLoaded = false;
         }
 
         await this.onUnmount();
