@@ -18,8 +18,10 @@ export default defineConfig(({ command }) => {
         }
       },
       emptyOutDir: false,
-      sourcemap: true,
+      sourcemap: false,
       target: 'esnext'
-    } : {}
+    } : {
+      sourcemap: true
+    }
   }
 });
